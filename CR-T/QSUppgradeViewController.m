@@ -1,18 +1,18 @@
 //
-//  QSThreeViewController.m
+//  QSUppgradeViewController.m
 //  CR-T
 //
 //  Created by qswdzy on 16/3/11.
 //  Copyright © 2016年 qswdzy. All rights reserved.
 //
 
-#import "QSThreeViewController.h"
+#import "QSUppgradeViewController.h"
 
-@interface QSThreeViewController ()
+@interface QSUppgradeViewController ()
 
 @end
 
-@implementation QSThreeViewController
+@implementation QSUppgradeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

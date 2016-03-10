@@ -1,18 +1,18 @@
 //
-//  QSFourViewController.m
+//  QSOtherViewController.m
 //  CR-T
 //
 //  Created by qswdzy on 16/3/11.
 //  Copyright © 2016年 qswdzy. All rights reserved.
 //
 
-#import "QSFourViewController.h"
+#import "QSOtherViewController.h"
 
-@interface QSFourViewController ()
+@interface QSOtherViewController ()
 
 @end
 
-@implementation QSFourViewController
+@implementation QSOtherViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

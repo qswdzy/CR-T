@@ -16,11 +16,10 @@
 		2A837CAF1C91DD3700307444 /* CR_TTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A837CAE1C91DD3700307444 /* CR_TTests.m */; };
 		2A837CBA1C91DD3700307444 /* CR_TUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A837CB91C91DD3700307444 /* CR_TUITests.m */; };
 		2A837CC91C91DE1D00307444 /* QSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A837CC81C91DE1D00307444 /* QSViewController.m */; };
-		2A837CCF1C91DFFA00307444 /* QSTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A837CCE1C91DFFA00307444 /* QSTwoViewController.m */; };
-		2A837CD21C91E03B00307444 /* QSThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A837CD11C91E03B00307444 /* QSThreeViewController.m */; };
-		2A837CD51C91E05300307444 /* QSFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A837CD41C91E05300307444 /* QSFourViewController.m */; };
 		2A837CD81C91E4A400307444 /* QSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A837CD71C91E4A400307444 /* QSHomeViewController.m */; };
 		2A837CDB1C91E55F00307444 /* QSIntroduceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A837CDA1C91E55F00307444 /* QSIntroduceViewController.m */; };
+		2A837CDE1C91E74200307444 /* QSUppgradeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A837CDD1C91E74200307444 /* QSUppgradeViewController.m */; };
+		2A837CE11C91E7A600307444 /* QSOtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A837CE01C91E7A600307444 /* QSOtherViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,16 +58,14 @@
 		2A837CBB1C91DD3700307444 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A837CC71C91DE1D00307444 /* QSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSViewController.h; sourceTree = "<group>"; };
 		2A837CC81C91DE1D00307444 /* QSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSViewController.m; sourceTree = "<group>"; };
-		2A837CCD1C91DFFA00307444 /* QSTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSTwoViewController.h; sourceTree = "<group>"; };
-		2A837CCE1C91DFFA00307444 /* QSTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSTwoViewController.m; sourceTree = "<group>"; };
-		2A837CD01C91E03B00307444 /* QSThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSThreeViewController.h; sourceTree = "<group>"; };
-		2A837CD11C91E03B00307444 /* QSThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSThreeViewController.m; sourceTree = "<group>"; };
-		2A837CD31C91E05300307444 /* QSFourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSFourViewController.h; sourceTree = "<group>"; };
-		2A837CD41C91E05300307444 /* QSFourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSFourViewController.m; sourceTree = "<group>"; };
 		2A837CD61C91E4A400307444 /* QSHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSHomeViewController.h; sourceTree = "<group>"; };
 		2A837CD71C91E4A400307444 /* QSHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSHomeViewController.m; sourceTree = "<group>"; };
 		2A837CD91C91E55F00307444 /* QSIntroduceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSIntroduceViewController.h; sourceTree = "<group>"; };
 		2A837CDA1C91E55F00307444 /* QSIntroduceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSIntroduceViewController.m; sourceTree = "<group>"; };
+		2A837CDC1C91E74200307444 /* QSUppgradeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSUppgradeViewController.h; sourceTree = "<group>"; };
+		2A837CDD1C91E74200307444 /* QSUppgradeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSUppgradeViewController.m; sourceTree = "<group>"; };
+		2A837CDF1C91E7A600307444 /* QSOtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSOtherViewController.h; sourceTree = "<group>"; };
+		2A837CE01C91E7A600307444 /* QSOtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSOtherViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,16 +120,14 @@
 				2A837C981C91DD3700307444 /* AppDelegate.m */,
 				2A837CC71C91DE1D00307444 /* QSViewController.h */,
 				2A837CC81C91DE1D00307444 /* QSViewController.m */,
+				2A837CDF1C91E7A600307444 /* QSOtherViewController.h */,
+				2A837CE01C91E7A600307444 /* QSOtherViewController.m */,
+				2A837CDC1C91E74200307444 /* QSUppgradeViewController.h */,
+				2A837CDD1C91E74200307444 /* QSUppgradeViewController.m */,
 				2A837CD91C91E55F00307444 /* QSIntroduceViewController.h */,
 				2A837CDA1C91E55F00307444 /* QSIntroduceViewController.m */,
 				2A837CD61C91E4A400307444 /* QSHomeViewController.h */,
 				2A837CD71C91E4A400307444 /* QSHomeViewController.m */,
-				2A837CD31C91E05300307444 /* QSFourViewController.h */,
-				2A837CD41C91E05300307444 /* QSFourViewController.m */,
-				2A837CD01C91E03B00307444 /* QSThreeViewController.h */,
-				2A837CD11C91E03B00307444 /* QSThreeViewController.m */,
-				2A837CCD1C91DFFA00307444 /* QSTwoViewController.h */,
-				2A837CCE1C91DFFA00307444 /* QSTwoViewController.m */,
 				2A837C9A1C91DD3700307444 /* ViewController.h */,
 				2A837C9B1C91DD3700307444 /* ViewController.m */,
 				2A837C9D1C91DD3700307444 /* Main.storyboard */,
@@ -300,14 +295,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A837CD51C91E05300307444 /* QSFourViewController.m in Sources */,
 				2A837CD81C91E4A400307444 /* QSHomeViewController.m in Sources */,
 				2A837CC91C91DE1D00307444 /* QSViewController.m in Sources */,
 				2A837C9C1C91DD3700307444 /* ViewController.m in Sources */,
+				2A837CDE1C91E74200307444 /* QSUppgradeViewController.m in Sources */,
 				2A837CDB1C91E55F00307444 /* QSIntroduceViewController.m in Sources */,
-				2A837CCF1C91DFFA00307444 /* QSTwoViewController.m in Sources */,
-				2A837CD21C91E03B00307444 /* QSThreeViewController.m in Sources */,
 				2A837C991C91DD3700307444 /* AppDelegate.m in Sources */,
+				2A837CE11C91E7A600307444 /* QSOtherViewController.m in Sources */,
 				2A837C961C91DD3700307444 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,8 +9,8 @@
 #import "QSViewController.h"
 #import "QSHomeViewController.h"
 #import "QSIntroduceViewController.h"
-#import "QSThreeViewController.h"
-#import "QSFourViewController.h"
+#import "QSUppgradeViewController.h"
+#import "QSOtherViewController.h"
 @interface QSViewController ()
 
 @end
@@ -24,10 +24,10 @@ UINavigationController *nav1 = [[UINavigationController alloc]initWithRootViewCo
 
 // 设置tabBar的标题
 nav1.title = @"首页";
-[nav1.navigationBar setBackgroundImage:[UIImage imageNamed:@"commentary_num_bg"] forBarMetrics:UIBarMetricsDefault];
+    
 
 // 设置tabBar的图标
-nav1.tabBarItem.image = [UIImage imageNamed:@"tabbar_home@2x.png"];
+nav1.tabBarItem.image = [UIImage imageNamed:@"tabbar_home"];
 
 // 设置navigationBar的标题
 oneVC.navigationItem.title = @"首页";
@@ -41,27 +41,27 @@ oneVC.view.backgroundColor = [UIColor whiteColor];
 // 2.添加第2个控制器
 QSIntroduceViewController *twoVC = [[QSIntroduceViewController alloc]init];
 UINavigationController *nav2 = [[UINavigationController alloc]initWithRootViewController:twoVC];
-nav2.title = @"技术";
-nav2.tabBarItem.image = [UIImage imageNamed:@"js"];
-twoVC.navigationItem.title = @"技术";
+nav2.title = @"介绍";
+nav2.tabBarItem.image = [UIImage imageNamed:@"compose_keyboardbutton_background"];
+twoVC.navigationItem.title = @"介绍";
 twoVC.view.backgroundColor = [UIColor blueColor];
 [self addChildViewController:nav2];
 
 // 3.添加第3个控制器
-QSThreeViewController *threeVC = [[QSThreeViewController alloc]init];
+QSUppgradeViewController *threeVC = [[QSUppgradeViewController alloc]init];
 UINavigationController *nav3 = [[UINavigationController alloc]initWithRootViewController:threeVC];
-nav3.title = @"博文";
-nav3.tabBarItem.image = [UIImage imageNamed:@"qw"];
-threeVC.navigationItem.title = @"博文";
+nav3.title = @"升级";
+nav3.tabBarItem.image = [UIImage imageNamed:@"compose_trendbutton_background"];
+threeVC.navigationItem.title = @"升级";
 threeVC.view.backgroundColor = [UIColor yellowColor];
 [self addChildViewController:nav3];
 
 // 4.添加第4个控制器
-QSFourViewController *fourVC = [[QSFourViewController alloc]init];
+QSOtherViewController *fourVC = [[QSOtherViewController alloc]init];
 UINavigationController *nav4 = [[UINavigationController alloc]initWithRootViewController:fourVC];
-nav4.title = @"我的江湖";
-nav4.tabBarItem.image = [UIImage imageNamed:@"user"];
-fourVC.navigationItem.title = @"我的江湖";
+nav4.title = @"其他";
+nav4.tabBarItem.image = [UIImage imageNamed:@"tabbar_profile_selected"];
+fourVC.navigationItem.title = @"其他";
 fourVC.view.backgroundColor = [UIColor grayColor];
 [self addChildViewController:nav4];
 }

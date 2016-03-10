@@ -1,5 +1,5 @@
 //
-//  QSFourViewController.h
+//  QSUppgradeViewController.h
 //  CR-T
 //
 //  Created by qswdzy on 16/3/11.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface QSFourViewController : UITabBarController
+@interface QSUppgradeViewController : UITabBarController
 
 @end

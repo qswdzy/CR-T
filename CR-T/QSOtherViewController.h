@@ -1,5 +1,5 @@
 //
-//  QSThreeViewController.h
+//  QSOtherViewController.h
 //  CR-T
 //
 //  Created by qswdzy on 16/3/11.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface QSThreeViewController : UITabBarController
+@interface QSOtherViewController : UITabBarController
 
 @end
